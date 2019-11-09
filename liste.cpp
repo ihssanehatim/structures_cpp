@@ -6,7 +6,7 @@ using std::cout;
 using std::endl;
 using std::cin;
 
-void Liste::addItem( Celliste* cel) const
+void Liste::addItem(Celliste* cel) const
 {
 	Head->next = cel;
 }
